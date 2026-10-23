@@ -103,23 +103,60 @@ function Hero() {
           </div>
 
           {/* Social */}
+          
+          {/* Social Links */}
           <div className="flex gap-4 mt-12">
-            <a href="#" className="hero-social">
+            {/* GitHub */}
+            <a
+              href="https://github.com/rahulmurkute95"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+              className="hero-social"
+            >
               <FaGithub size={21} />
             </a>
 
-            <a href="#" className="hero-social">
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/rahul-murkute-393abb2a9//"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+              className="hero-social"
+            >
               <FaLinkedin size={21} />
             </a>
 
-            <a href="#" className="hero-social">
+            
+            {/* Email Button */}
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=murkurerahul412%40gmail.com&su=Portfolio%20Contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Send Email"
+              title="Send Email"
+              className="hero-social"
+            >
               <MdEmail size={22} />
             </a>
 
-            <a href="#" className="hero-social">
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/+919094589595"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              title="WhatsApp"
+              className="hero-social"
+            >
               <FaWhatsapp size={21} />
             </a>
           </div>
+
         </motion.div>
 
         {/* ================= RIGHT SIDE ================= */}
