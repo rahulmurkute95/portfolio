@@ -5,6 +5,10 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Cursor from "./components/Cursor";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
@@ -20,7 +24,10 @@ function App() {
       <Projects />
       <Experience />
       <Education />
-      
+      <Contact />
+      <Cursor />
+      <Footer />
+      <ScrollToTop />
     </>
   );
 }
